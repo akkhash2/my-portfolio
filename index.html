@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet"href="style.css"/>
+    <link rel="stylesheet"href="media.css"/>
+
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Akkhash</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Projets">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Akkhash</div>
+        <div clss="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class ="menu-links">
+                <li><a href="#about"onclick="toggleMenu()">About</a></li>
+                <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#Projects"onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#Contact"onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id = "profile">
+        <div class ="section_pic-container">
+            <img src="assets/fotor-2024053013018.png" alt="Akkhash profile picure">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">HELLO,I'M</p>
+            <h1 class ="title">Akkhash</h1>
+            <p class ='section__text__p2'>Frontend Devloper</p>
+            <div class="btn-container">
+                <button class = "btn btn-color-2"onclick="window.open('./assets/resume-example.pdf')">
+                    Download CV
+                </button> 
+                <button class="btn btn-colors-1"onclick="location.href='./#Contact'">Contact Me </button>
+
+            </div>
+            <div id="socials-container">
+                <img src ="./assets/linkedin.png" alt="my linkedin profile"
+                  class="icon"onclick="location.href='https://in.linkedin.com/company/tata-motors/'">
+            </div>
+            <div id="socials-container">
+                    <img src ="./assets/github.png" alt="my github profile"
+                    class="icon"onclick="location.href='https://github.com/akkhash2'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/1837cfd0-2b6a-4195-bfba-b4e829f83114.png"alt="profilepicture"class="about-pic"
+                />
+            </div>
+            <div class="about-detail-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png"alt="experience icon"class="icon"/>
+                        <h3> Experience</h3>
+                        <p>1 year experience<br/> Frontend Devlopment</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png"alt="education icon"class="icon"/>
+                        <h3> Education</h3>
+                        <p>B.Tech CSE (AI&ML) <br/> Artifical Intelligence ,Machine Learning</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Meet Akkhash Pilla, a B.Tech CSE student specializing in AI & ML. With a year of front-end development experience, Akkhash crafts intuitive interfaces. His portfolio showcases his skills. Fueled by curiosity, he explores the depths of AI algorithms, aiming to innovate for societal good.
+                        
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <img src="./assets/arrow.png"alt="arrow icon"class="icon arrow"
+        onclick="location.href='./#Experience'"/>
+
+    </section>
+    <section id="Experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div  class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Programming Tools I Know</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png"alt ="experience icon" class="icon"/>
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Intermediate</p>
+
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"alt ="experience icon" class="icon"/>
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Intermediate</p>
+
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"alt ="experience icon" class="icon"/>
+                            <div>
+                                <h3>C</h3>
+                                <p>Intermediate</p>
+
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"alt ="experience icon" class="icon"/>
+                            <div>
+                                <h3>JAVA</h3>
+                                <p>Intermediate</p>
+
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"alt ="experience icon" class="icon"/>
+                            <div>
+                                <h3>PYTHON</h3>
+                                <p>Intermediate</p>
+
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"alt ="experience icon" class="icon"/>
+                            <div>
+                                <h3>JS SCRIPT</h3>
+                                <p>Basic</p>
+
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <img src="./assets/arrow.png"alt="arrow icon"class="icon arrow"
+        onclick="location.href='./#Projects'"
+        />
+
+        
+
+    </section>
+    <section id="Projects">
+        <p class="section__text__p1">Browsse My Recents</p>
+        <h1 class="title">Projects </h1>
+        <div class="experience-details-container">
+            <div class="'details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project-1.png"alt="project-1"class="project-img"
+                    />
+                </div>
+                <h2  class="experience-sub-title project-title" >Project One</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/akkhash2'">Github 
+                    </button>
+
+                </div>
+            </div>
+            <div class="'details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project-1.png"alt="project-1"class="project-img"
+                    />
+                </div>
+                <h2  class="experience-sub-title project-title" >Project One</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/akkhash2'">Github 
+                    </button>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
