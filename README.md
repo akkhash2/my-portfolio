@@ -1,1 +1,1 @@
-10 hrs kasta guru ..
+10 hrs kastam  guru ..
